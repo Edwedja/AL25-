@@ -6,7 +6,7 @@ var engine, world;
 var box1, box2, ground, box3, box4;
 var pig1, pig2, box5;
 var log1, log2, log3, log4;
-var bird;
+var bird, plataform;
 
 function setup() {
   createCanvas(1200,400);
@@ -29,6 +29,8 @@ function setup() {
   log4 = new Log(740,120,150,PI/7)
 
   bird = new Bird(100,100)
+
+  plataform =  new Ground(150,305,300,170)
 }
 
 function draw() {
@@ -51,6 +53,8 @@ function draw() {
   log4.display();
 
   bird.display();
+
+  plataform.display();
 }
 
 
