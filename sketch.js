@@ -54,7 +54,7 @@ function draw() {
 
   bird.display();
 
-  plataform.display();
+  
 }
 
 
